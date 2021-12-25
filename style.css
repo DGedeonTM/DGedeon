@@ -5,6 +5,10 @@ body{
     justify-content:end;
     align-items: end;
     min-height: 100vh;
+    filter:invert(1) hue-rotate(180deg);
+}
+img{
+    filter:invert(1) hue-rotate(180deg);    
 }
 
 input[ type="checkbox"] {
@@ -54,13 +58,6 @@ input[ type="checkbox"]:checked ~ .check::before{
     transition: 0.5s;
     transform: translateX(50px);
 }
-body{
-    filter:invert(1) hue-rotate(180deg);
-}
-img{
-    filter:invert(1) hue-rotate(180deg);    
-}
-
 input[ type="checkbox"]:checked ~ .check::after{
     transform: translateX(0px);
     
