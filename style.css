@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Poppins', sans-serif;    
+    
 }
 img{
     filter: invert(1) ;
@@ -40,7 +40,9 @@ section{
     background: #fff;
     min-height: 100vh;
     padding: 80px 100px;    
+    filter: invert(1) ;
 }
 section img{    
-    float: center;    
+    float: center;   
+    filter: invert(1) ;
 }
