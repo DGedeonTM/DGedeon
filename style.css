@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;    
 }
 img{
-    filter: invert(1) hue-rotate(180deg);
+    filter: invert(1) ;
 }
 input[type="checkbox"]{
     position: fixed;
