@@ -4,8 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Poppins', sans-serif;
-    filter: invert(1) hue-rotate(180deg);
+    font-family: 'Poppins', sans-serif;    
 }
 input[type="checkbox"]{
     position: fixed;
@@ -26,7 +25,6 @@ input[type="checkbox"]:checked::before{
     content: 'Light';
     color: #000;
     background: #fff;
-    padding: 10px 20px; 
 }
 
 input[type="checkbox"]:checked ~*{
@@ -39,9 +37,9 @@ section{
     background: #fff;
     min-height: 100vh;
     padding: 80px 100px;
+    filter: invert(1) hue-rotate(180deg);
 }
-section img{
-    max-width: 50%;
+section img{    
     float: center;
     filter: invert(1) hue-rotate(180deg);
 }
