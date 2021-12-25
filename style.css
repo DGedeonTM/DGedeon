@@ -44,6 +44,3 @@ section{
 section img{    
     float: center;    
 }
-img{
-    filter: invert(1) hue-rotate(180deg);
-}
