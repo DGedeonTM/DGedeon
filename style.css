@@ -5,6 +5,7 @@
     box-sizing: border-box;
     outline: none;
     font-family: 'Poppins', sans-serif;
+    filter: invert(1) hue-rotate(180deg);
 }
 input[type="checkbox"]{
     position: fixed;
@@ -25,6 +26,7 @@ input[type="checkbox"]:checked::before{
     content: 'Light';
     color: #000;
     background: #fff;
+    padding: 10px 20px; 
 }
 
 input[type="checkbox"]:checked ~*{
@@ -40,6 +42,6 @@ section{
 }
 section img{
     max-width: 50%;
-    float: left;
-    filter: inherit;
+    float: center;
+    filter: invert(1) hue-rotate(180deg);
 }
