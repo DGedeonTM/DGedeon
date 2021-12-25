@@ -13,13 +13,13 @@ input[ type="checkbox"] {
     display: none;
 }
 .check{
-    position: relative;
+    position: fixed;
     display: block;
     width: 40px;
     height: 20px;
     background: #092c3e;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 200px;
     overflow: hidden;
     transition: ease-in 0.5s;
 }
@@ -36,7 +36,7 @@ input[ type="checkbox"]:checked ~ .check{
     background: #fff;
     width: 16px;
     height: 16px;
-    border-radius: 50%;
+    border-radius: 500%;
     transition: 0.5s;
 }
 input[ type="checkbox"]:checked ~ .check::before{
@@ -51,7 +51,7 @@ input[ type="checkbox"]:checked ~ .check::before{
     background: #092c3e;
     width: 16px;
     height: 16px;
-    border-radius: 50%;
+    border-radius: 500%;
     transition: 0.5s;
     transform: translateX(50px);
 }
