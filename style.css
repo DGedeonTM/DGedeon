@@ -41,7 +41,5 @@ section{
     padding: 80px 100px;
 }
 section img{
-    max-width: 50%;
-    float: center;
-    filter: invert(1) hue-rotate(180deg);
+   filter: invert(1) hue-rotate(180deg);
 }
