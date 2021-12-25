@@ -7,7 +7,7 @@
     
 }
 img{
-    filter: invert(1) ;
+    filter: invert(1) hue-rotate(180deg) ;
 }
 input[type="checkbox"]{
     position: fixed;
@@ -40,9 +40,9 @@ section{
     background: #fff;
     min-height: 100vh;
     padding: 80px 100px;    
-    filter: invert(1) ;
+    
 }
 section img{    
     float: center;   
-    filter: invert(1) ;
+    filter: invert(1) hue-rotate(180deg);    
 }
