@@ -36,11 +36,11 @@ input[ type="checkbox"]:checked ~ .check::before{
 .check::after{
     content: '';
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 2000px;
+    right: 200000px;
     background: #092c3e;
-    width: 160px;
-    height: 160px;
+    width: 1600000px;
+    height: 160000px;
     border-radius: 500%;
     transition: 0.5s;
     transform: translateX(50px);
