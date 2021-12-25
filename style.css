@@ -36,10 +36,8 @@ section{
     left:0;
     background: #fff;
     min-height: 100vh;
-    padding: 80px 100px;
-    filter: invert(1) hue-rotate(180deg);
+    padding: 80px 100px;    
 }
 section img{    
-    float: center;
-    filter: invert(1) hue-rotate(180deg);
+    float: center;    
 }
