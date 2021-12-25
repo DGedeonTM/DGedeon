@@ -6,6 +6,9 @@
     outline: none;
     font-family: 'Poppins', sans-serif;    
 }
+img{
+    filter: invert(1) hue-rotate(180deg);
+}
 input[type="checkbox"]{
     position: fixed;
     z-index: 1;
@@ -40,4 +43,7 @@ section{
 }
 section img{    
     float: center;    
+}
+img{
+    filter: invert(1) hue-rotate(180deg);
 }
